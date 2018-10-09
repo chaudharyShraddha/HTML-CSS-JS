@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registrastion form</title>
+    <link rel="stylesheet" href="css/style2.css">
+  </head>
+  <body>
+    <div class="content">
+    <h1 id="title">Registrastion Form</h1><hr class="line">
+    <p id="description"><img src="https://image.ibb.co/gmxeFy/img.png"> Let's Start coding with You and Us...</p>
+
+    <form id="survey-form" action="">
+
+      <div id="form-item">
+        <label for="name" id="name">*NAME:</label>
+        <input type="text" name="name" id="name-label" placeholder="Enter your Name..." required>
+      </div>
+<br>
+      <div id="form-item">
+        <label for="email" id="email">*E-mail:</label>
+        <input type="email" name="email" id="email-label" placeholder="Enter your E-mail Id.." required>
+      </div>
+<br>
+      <div id="form-item">
+        <label for="age" id="number">AGE:</label>
+        <input type="number" id="number-label" min="1" max="100" placeholder="Enter your Age...">
+      </div>
+<br>
+      <div id="form-item">
+        <label for="bdate" id="bdat">Birth-date:</label>
+        <input type="date" id="bdate">
+      </div>
+<br>
+      <div id="form-item1">
+        <label for="text" id="dropdown">Which course do you want?</label><br>
+        <select class="dropdown" name="currentPos">
+          <option disabled selected>Select Option</option>
+            <option value="student">JAVA</option>
+            <option value="job">C</option>
+            <option value="learner">C++</option>
+            <option value="preferNo">PYTHON</option>
+            <option value="other">HTML/CSS</option>
+              <option value="other">.NET</option>
+        </select>
+      </div>
+<br>
+      <div id="form-item1">
+        <label>GENDER:</label>
+          <input type="radio" id="gender" value="male">Male
+          <input type="radio" id="gender" value="female">female
+          <input type="radio" id="gender" value="other">Other
+      </div>
+<br>
+      <div id="form-item1">
+      <label for="comment">Discribe your Self</label>
+        <textarea id="comments" class="input-field" name="comment" placeholder="Discribe something about your self.."></textarea>
+    </div>
+<br>
+         <button id="submit" type="submit">PAYMENT</button></div>
+    </form>
+
+  </body>
+</html>
