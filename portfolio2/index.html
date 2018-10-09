@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<script src="jQuery.js"></script>
+		<link rel="stylesheet" href="style.css">
+
+		<title>Personal portfolio</title>
+	</head>
+	<body>
+		<div class="background">
+			<div class="nav">
+				<a class="a active" href="#">Home</a>
+				<a class="b" href="#">About Me</a>
+				<a class="c" href="#">Portfolio</a>
+				<a class="d" href="#">Contact</a>
+			</div>
+
+			<div class="content">
+				<div class="home"> 
+					<h1>i am  shraddha</h1>
+					<h3>web devloper - Artist</h3>
+				</div>
+			</div>
+
+			<div class="content1">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium numquam voluptatum nemo placeat tenetur cumque reiciendis asperiores tempora, quia earum beatae, maxime ad accusamus itaque nostrum vel autem fuga eaque hic animi nulla inventore! Eos quas dolor consequatur, deserunt similique asperiores qui consectetur obcaecati dicta neque animi, voluptatum, molestias assumenda libero ipsum, non incidunt reprehenderit? Id aspernatur saepe mollitia, repellendus tenetur dolore aperiam necessitatibus ipsa voluptas blanditiis praesentium quidem. Dolore velit fugiat provident? Accusamus, doloribus ratione ducimus! Perspiciatis, voluptatum rerum dicta aliquid maxime facilis eos aliquam, amet laudantium esse ipsam eligendi.</p>
+			</div>
+			
+			<div class="gallery">
+				<div class="image">
+					<img src="1.jpg"/>
+					<img src="2.jpg"/>
+					<img src="3.jpg"/>
+					<img src="4.jpg"/>
+					<img src="5.jpg"/>
+					<img src="6.jpg"/>
+				</div>
+			</div>
+			
+			<div class="contactus">
+				<form class="form">
+					<input type="text" value="Your Name" class="inputtext"></input><br>
+					<input type="text" value="Last Name" class="inputtext"></input><br>
+					<textarea rows="4" cols="3" class="inputmessage">Enter Your Feedback.....</textarea><br>
+					
+					<button class="submit">Submit</button>
+				</form>
+			</div>
+	</body>
+	
+	<script>
+		$(document).ready(function(){
+			$('a').click(function(){
+				var selected=$(this);
+				$('a').removeClass('active');
+				$(selected).addClass('active');
+			});
+			
+			
+			var $a=$('.a'),
+				$b=$('.b'),
+				$c=$('.c'),
+				$d=$('.d'),
+				$home=$('.home'),
+				$content1=$('.content1'),
+				$gallery=$('.gallery'),
+				$contactus=$('.contactus');
+			
+			$a.click(function(){
+				$home.fadeIn(2500);
+				$content1.fadeOut();
+				$gallery.fadeOut();
+				$contactus.fadeOut();
+			});
+			
+			$b.click(function(){
+				$home.fadeOut();
+				$content1.fadeIn(2500);
+				$gallery.fadeOut();
+				$contactus.fadeOut();
+			});
+			$c.click(function(){
+				$home.fadeOut();
+				$content1.fadeOut();
+				$gallery.fadeIn(3000);
+				$contactus.fadeOut();
+			});
+			$d.click(function(){
+				$home.fadeOut();
+				$content1.fadeOut();
+				$gallery.fadeOut();
+				$contactus.fadeIn(2500);
+			});
+		});
+	</script>
+
+</html>
