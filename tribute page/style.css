@@ -1,0 +1,44 @@
+body{
+		background:url(s1.jpg);
+		background-position:relative;
+		font-family: arial, sans-serif;
+color:white;
+		
+	}
+#container{
+	background:url(https://i.pinimg.com/originals/b5/b7/86/b5b7861f2bb25cccf547df4e83af02e6.jpg);
+	background-repeat: no-repeat;
+	margin-left:670px;
+	height:450px;
+	width:450px;
+}
+h1{
+	margin-left:-630px;
+	padding-top:50px;
+	font-family:Billyforges Demo;
+	font-size:4.4em;
+	
+}
+#contain1{
+	margin-left:-320px;
+	margin-top:-50px;
+	font-size:3.2em;
+	font-family:Brush Script MT;
+}
+#contain2{
+	margin-top:-220px;
+	margin-left:30px;
+	padding-left:50px;
+	font-size:2.2em;
+	background:url(next.png);
+	background-repeat:no-repeat;
+	height:100px;
+	width:1000px;
+}
+p{
+	margin-right:130px;
+	padding:0;
+	text-indent:90px;
+	font-size:20px;
+	text-align:justify;
+}
