@@ -1,0 +1,66 @@
+#header-img{
+width: 180px;
+  height:100px;
+  margin:15px;
+}
+#text{
+  font-size: 1.6em;
+  color: black;
+}
+.img{
+    height: 200px;
+    width: 100%;
+    font-family:Gabriola;
+    font-size: 70px;
+    color:blue;
+    text-align: center;
+   }
+  .block{
+    color:white;
+  }
+.text2{
+  font-size: 20px;
+  font-family:  Arial;
+ text-align: justify;
+}
+blockquote{ font-weight: bold; }
+hr{border: 2px black solid; }
+
+#box{
+text-align:right;
+}
+#qu{
+  font-size: 30px;
+}
+#an{
+  font-size: 20px;
+}
+#box2{
+  margin:0px;
+  padding-left: 50px;
+  height: 500px;
+  font-family: Georgia;
+
+}
+#text3{
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+#button{
+  margin-left: 200px;
+  margin-top: 20px;
+  width: 290px;
+  font-size: 25px; 
+}
+
+@media only screen and (max-width: 1050px) {  
+  .img{
+    font-size: 4em;
+    height: 100%;
+  }
+  #button{
+    margin:0;
+  }
+}
