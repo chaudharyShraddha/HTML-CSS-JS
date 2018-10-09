@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding:0;
+}
+body{
+  background-image: url("https://image.ibb.co/cVaGvy/hello1.jpg");
+  background-repeat: no-repeat;
+  height: 900px;
+  background-size:cover;
+  color:#4E0928;
+  font-family: Oswald;
+}
+.content{
+  display: block;
+  width: 700px;
+  height: 850px;
+  background: #eee;
+  opacity: .7;
+  margin-left: 170px;
+}
+h1{
+text-align: center;
+color:#5A0228;
+margin-top: 50px;
+padding-top: 30px;
+}
+.line{
+  margin-left:160px;
+  max-width:400px;
+  margin-top:15px;
+  border-top: 5px solid #ED5094;
+}
+#description{
+  margin-left:25px;
+  font-size: 1.5em;
+  padding-top: 25px;
+  margin-bottom: 40px;
+}
+#form-item{
+  font-size: 1.5em;
+  margin-left: 90px;
+  padding-top: 8px;
+}
+#form-item input{
+  margin-left: 70px;
+  border:0;
+  border-radius:0;
+  font-size:1.02em;
+  background:0 0;
+  border-bottom:2px solid black;
+  min-width: 250px;
+}
+#form-item input:focus, #form-item textarea:focus{
+      outline:0;
+    }
+#form-item>#number-label{margin-left: 88px;min-width: 294px;}
+  #form-item>#bdate{margin-left: 35px;min-width: 294px;}
+
+#form-item1{
+  font-size: 1.5em;
+  margin-left: 90px;
+  padding-top: 8px;
+}
+.dropdown{
+  margin-left: 70px;
+  border:0;
+  border-radius:0;
+  font-size:1.02em;
+  background:0 0;
+  border-bottom:2px solid black;
+  min-width: 370px;
+  padding-top: 20px;
+}
+.dropdown:focus{outline: 0;}
+
+#form-item1>#gender{
+  margin-left: 20px;
+  margin-right: 10px;
+}
+#form-item1>#hobbies{
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.input-field{
+  margin-left: 30px;
+  border:0;
+  border-radius:0;
+  font-size:1.02em;
+  font-size: center;
+  background:0 0;
+  border-bottom:2px solid black;
+  min-width: 320px;
+  padding-top: 20px;
+}
+.input-field:focus{outline:0;}
+#submit{
+    margin: 20px 0 80px 280px;
+    padding: 10px 30px;
+    font-size: 14px;
+    border:none;
+    font-size:20px;
+    line-height:20px;
+    text-align:center;
+    color: white;
+    background-color: #A43264;
+}
+#submit:hover{
+	  cursor:pointer;
+    color:black;
+    background:#FCCFE2;
+	  outline:0;
+  }
